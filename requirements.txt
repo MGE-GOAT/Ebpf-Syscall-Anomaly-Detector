@@ -1,0 +1,5 @@
+scikit-learn>=1.3
+numpy>=1.24
+# NOTE: bcc (the eBPF toolkit) is NOT a pip package. Install it from your distro:
+#   Debian / Kali / Ubuntu:  sudo apt install bpfcc-tools python3-bpfcc linux-headers-$(uname -r)
+# Only monitor.py / tracer.py need it; the tests and detector do not.
